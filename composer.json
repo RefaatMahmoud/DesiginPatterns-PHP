@@ -1,0 +1,16 @@
+{
+    "name": "refaat/design-patterns",
+    "description": "design patterns samples",
+    "authors": [
+        {
+            "name": "Refaat",
+            "email": "refaataishdev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational"
+        }
+    },
+    "require": {}
+}
