@@ -1,0 +1,8 @@
+Why Adapter ?
+-------------
+
+* Allow 2 incompatible interfaces to work together
+
+* Any classes with same features can work together as long as the adapter solves the issue that all classes must implement every method defined by the shared interface
+
+

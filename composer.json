@@ -9,8 +9,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Creational\\": "Creational"
+            "Creational\\": "Creational",
+            "Structural\\": "Structural"
         }
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
 }
