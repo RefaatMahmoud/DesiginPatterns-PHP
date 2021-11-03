@@ -1,0 +1,14 @@
+* Why we use Singleton ?
+- We use the singleton pattern in order to restrict the number of instances that can be created
+from a resource consuming class to only one.
+
+For example:
+- Some external service providers (APIs) charge money per each use.
+- Some classes that detect mobile devices might slow down our website.
+- Establishing a connection with a database is time consuming and slows down our app.
+- on bootstrap operation you need to instantiate an object but you can (you have to) share it with other that request for a framework bootstrap
+
+The anatomy of a singleton pattern ?
+1 - A private constructor is used to prevent the direct creation of objects from the class.
+2 - The expensive process is performed within the private constructor.
+3 - The only way to create an instance from the class is by using a static method that creates the object only if it wasn't already created.
