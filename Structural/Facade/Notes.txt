@@ -1,0 +1,15 @@
+* Why Facade ?
+- Imagine that you must make your code work with a broad set of objects that belong to a sophisticated library or framework.
+- A facade is a class in client code that provides a simple interface to a complex subsystem which contains lots of moving parts and don't care about the implementation in theses sub classes .
+
+
+* Real World Examples
+- When you call a shop to place a phone order, an operator is your facade to all services and departments of the shop. The operator provides you with a simple voice interface to the ordering system, payment gateways, and various delivery services.
+
+
+* Props
+-  You can isolate your code from the complexity of a subsystem.
+
+
+* Cons
+    - A facade can become a god object coupled to all classes of an app.
